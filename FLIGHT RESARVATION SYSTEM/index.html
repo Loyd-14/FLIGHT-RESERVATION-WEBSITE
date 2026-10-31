@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SkyBook – Flight Reservations</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="icon" href="images/plane.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="bar">
+  <button class="logo" onclick="go('home')">Sky<span>Book</span></button>
+  <nav aria-label="Main"><button data-v="home" onclick="go('home')">Search flights</button><button data-v="manage" onclick="go('manage')">Manage booking</button><button data-v="admin" onclick="go('admin')">Bookings data</button></nav>
+</div></header>
+<div id="app"></div>
+<footer>BY US.FOR YOU.</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
